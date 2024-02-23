@@ -6,7 +6,7 @@ Studying and practising with various Data Analytics resources
 * SQL
 * Python and its data related libraries
     * Pandas
-    * Numoy
+    * Numpy
     * Matplotlib
 * Excel and spreadsheets
 
