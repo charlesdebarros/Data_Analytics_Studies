@@ -4,6 +4,8 @@
 
 USE sql_invoicing;
 
+DROP PROCEDURE IF EXISTS make_payment;
+
 DELIMITER $$
 CREATE PROCEDURE make_payment
 (
