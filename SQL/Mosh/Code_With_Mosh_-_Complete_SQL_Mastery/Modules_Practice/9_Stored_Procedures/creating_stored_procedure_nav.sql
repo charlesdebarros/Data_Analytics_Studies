@@ -1,0 +1,11 @@
+-- Creating PROCEDURES using the 'Create Stored Procedure' GUI
+-- Right-click the 'Store Procedures' in the navigator panel.
+--    In this example, the 'Stored Procedure' under sql_invoicing.
+--
+-- Choose 'Create Stored Procedures...'
+-- Using this method, we DO NOT need to change DELIMITERs.
+-- Write procedure name in between the backquotes/backticks.
+-- Make relevant changes,e.g., add a procedure name, write SQL query to retrieve data, etc.
+-- Click on 'Apply'
+-- "Review the SQL Script to the Applied on the Database" screen appears.
+-- Click 'Apply'.

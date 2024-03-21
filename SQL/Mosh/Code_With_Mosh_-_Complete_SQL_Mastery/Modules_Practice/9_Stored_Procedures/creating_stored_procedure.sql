@@ -1,4 +1,5 @@
 -- Creating a Stored Procedure
+-- Reference -> https://dev.mysql.com/doc/refman/8.3/en/create-procedure.html
 -- CREATE PROCEDURE <procedure_name> (optional_paramenters)
 -- Note:
 --   The notation convention amongst SQL developers is to create variables, procedures names using snake_case, e.g., get_clients
@@ -10,13 +11,15 @@
 -- We cannot use USE inside a Procedure
 USE sql_invoicing;
     
-delimiter $$  
+-- Changing delimiter to '$$'
+DELIMITER $$  
 CREATE PROCEDURE get_clients()
 BEGIN
 	SELECT * FROM clients;
 END$$
 
-delimiter ;
+-- Changing delimiter back to ';'
+DELIMITER ;
 
 -- To access a stored procedure, we need to 'call' it using the CALL statement:
 CALL sql_invoicing.get_clients();
