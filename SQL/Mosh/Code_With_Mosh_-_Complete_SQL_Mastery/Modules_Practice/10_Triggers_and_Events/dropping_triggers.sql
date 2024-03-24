@@ -1,0 +1,4 @@
+-- Dropping Triggers
+-- It works similarly to DROP table, DROP PROCEDURE, etc
+-- It should also be stored in source control.
+-- DROP TRIGGER IF EXISTS <trigger_name>;
