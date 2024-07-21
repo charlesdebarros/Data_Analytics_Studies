@@ -1,4 +1,8 @@
 # Self Outer Joins
+
+-- An OUTER join within the same table
+-- Similar to an SELF INNER join but an SELF OUTER join will also display NULL value
+
 USE sql_hr;
 
 SELECT 
