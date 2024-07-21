@@ -1,4 +1,6 @@
-# Self Joins
+# 3.3 Self Joins
+
+-- Joining a table with itself
 
 USE sql_hr;
 

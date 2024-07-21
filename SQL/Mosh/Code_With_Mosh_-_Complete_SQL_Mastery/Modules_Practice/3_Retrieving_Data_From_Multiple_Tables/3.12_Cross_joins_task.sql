@@ -1,7 +1,10 @@
-# CROSS join task
+# 3.12 CROSS join - task
+
 -- Do a CROSS join between shippers and products
 	-- using the implicit syntax
 	-- and then using the explicit syntax
+
+USE sql_store;
 
 # Implicit
 SELECT 

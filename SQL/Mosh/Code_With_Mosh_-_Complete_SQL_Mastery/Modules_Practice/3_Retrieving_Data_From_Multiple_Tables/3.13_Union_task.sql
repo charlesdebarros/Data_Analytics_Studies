@@ -1,6 +1,7 @@
-# UNION task
+# 3.13 UNION - task
 
--- < 200 = Bronze
+-- Use the sql_store table
+-- < 2000 = Bronze
 -- between 2000 and 3000 = Silver
 -- above 3000 = Gold
 -- ORDER BY first_name
@@ -32,6 +33,6 @@ SELECT
     'Gold' AS type
 FROM customers
 WHERE points > 3000
-ORDER BY first_name
+ORDER BY first_name;
 
 

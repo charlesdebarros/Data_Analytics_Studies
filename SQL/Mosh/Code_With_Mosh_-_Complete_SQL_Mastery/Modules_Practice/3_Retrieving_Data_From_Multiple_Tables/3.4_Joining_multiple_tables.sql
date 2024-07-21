@@ -1,4 +1,5 @@
-# Joining multiple tables
+# 3.4 Joining multiple tables
+
 USE sql_store;
 
 SELECT 
