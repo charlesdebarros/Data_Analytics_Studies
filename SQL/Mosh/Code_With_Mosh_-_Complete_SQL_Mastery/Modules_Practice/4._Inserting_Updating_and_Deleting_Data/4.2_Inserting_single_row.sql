@@ -1,5 +1,7 @@
-# Inserting a Single Row
+# 4.2 Inserting a Single Row
 # We can use NULL or Default fields set to 'Null', 'Empty', or a set value like '0'
+
+USE sql_store;
 
 # First method
 -- INSERT INTO customers
