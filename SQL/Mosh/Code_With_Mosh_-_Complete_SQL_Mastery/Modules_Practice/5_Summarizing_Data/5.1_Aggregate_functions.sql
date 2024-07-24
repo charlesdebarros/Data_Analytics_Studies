@@ -1,8 +1,10 @@
-# Aggregate functions
-# A Function is a piece of code that can be reused. There are many functions already in SQL
-# Aggregates many values into a single value
-# MAX(), MIN(), AVG(), SUM(), COUNT()
-# NULL values found in columns are not included in the functions.
+# 5.1 Aggregate functions
+
+-- A Function is a piece of code that can be reused. There are many functions already in SQL
+-- Aggregates function take a suite of values and turn them into a single value
+-- MAX(), MIN(), AVG(), SUM(), COUNT()
+-- Aggregation functions can take duplicate values. In order to exclude duplicate records, the DISTINC keyword must be used
+-- NULL values found in columns are not included in the functions.
 
 USE sql_invoicing;
 
@@ -17,4 +19,4 @@ SELECT
     COUNT(client_id) AS total_clients, # It will count duplicate records
     COUNT(DISTINCT client_id) AS unique_clients_total # Will not count duplicate records
 FROM invoices
-WHERE invoice_date > '2019-07-01'
+WHERE invoice_date > '2019-07-01';

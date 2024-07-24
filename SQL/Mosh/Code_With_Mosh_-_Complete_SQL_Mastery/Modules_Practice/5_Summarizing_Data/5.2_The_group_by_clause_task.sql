@@ -1,4 +1,5 @@
-# GROUP BY clause task
+# 5.2 GROUP BY clause - task
+
 # Use the 'payments' table;
 # Grouping using multiple columns;
 # Columns: date, payment_method, total_payments;

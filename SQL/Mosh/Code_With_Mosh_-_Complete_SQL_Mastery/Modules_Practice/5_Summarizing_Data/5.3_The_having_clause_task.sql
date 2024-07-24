@@ -1,4 +1,5 @@
-#  The HAVING clause task
+#  5.3 The HAVING clause - task
+
 -- Use sql_store database
 -- Get the customers
 -- 	Located in Virginia
@@ -10,7 +11,7 @@ SELECT
     c.first_name,
     c.last_name,
     state,
-    SUM(oi.unit_price * oi.quantity) as total_sales
+    SUM(oi.unit_price * oi.quantity) AS total_sales
 FROM customers c
 JOIN orders o USING (customer_id)
 JOIN order_items oi USING (order_id)
