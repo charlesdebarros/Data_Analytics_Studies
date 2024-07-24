@@ -1,4 +1,12 @@
-# The HAVING clause
+# 5.3 The HAVING clause
+
+-- The HAVING clause is used to filter data AFTER the rows have been grouped
+-- The WHERE clause is used to filter data BEFORE the rows have been grouped
+-- The columns used with the HAVING clause, must be included in the SELECT clause 
+-- Using a column not included in the SELECT clause will raise an error
+-- On the other hand, we can use ANY column with the WHERE clause, regardless whether or not they have been included in the SELECT clause.
+
+USE sql_invoicing;
 
 SELECT 
 	client_id,
