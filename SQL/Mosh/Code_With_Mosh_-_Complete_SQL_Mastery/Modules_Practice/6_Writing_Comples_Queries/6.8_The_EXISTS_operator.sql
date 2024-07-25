@@ -1,5 +1,7 @@
--- The EXISTS Operator
+-- 6.8 The EXISTS Operator
+
 -- Select clients that have an invoice
+-- The EXISTS operator can be faster and more efficent than IN if the list resturned by IN is a very long list of results
 
 USE sql_invoicing;
 

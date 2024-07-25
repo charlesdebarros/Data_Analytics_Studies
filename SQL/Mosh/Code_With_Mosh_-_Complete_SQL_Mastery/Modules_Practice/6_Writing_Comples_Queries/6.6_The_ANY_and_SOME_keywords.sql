@@ -1,4 +1,4 @@
-# The ANY and SOME keywords
+# 6.6 The ANY and SOME keywords
 
 # Select clients with at least TWO invoices
 
@@ -14,7 +14,7 @@ WHERE client_id IN (
 	HAVING COUNT(*) >= 2
 );
 
-# Using = ANY -> Equivalent to the IN
+# Using = ANY () -> Equivalent to the IN ()
 SELECT *
 FROM clients
 WHERE client_id = ANY (

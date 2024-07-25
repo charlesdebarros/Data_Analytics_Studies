@@ -1,4 +1,5 @@
--- The EXISTS operator Task
+-- 6.8 The EXISTS operator Task
+
 -- Find the products that have never been ordered
 
 -- Think as if we are querying the Amazon database. Using the IN operator would
