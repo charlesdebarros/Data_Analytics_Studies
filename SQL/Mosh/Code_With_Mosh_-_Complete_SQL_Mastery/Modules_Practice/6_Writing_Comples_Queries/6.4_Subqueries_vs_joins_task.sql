@@ -1,4 +1,4 @@
-# Subqueries vs Join - Task
+# 6.4 Subqueries vs Join - Task
 
 -- Find customers who have ordered lettuce (id = 3)
 -- Select customer_id, first_name, and last_name

@@ -1,4 +1,4 @@
-# The ALL keyword
+# 6.5 The ALL keyword
 # Select invoices larger than all invoices of client 3
 
 USE sql_invoicing;

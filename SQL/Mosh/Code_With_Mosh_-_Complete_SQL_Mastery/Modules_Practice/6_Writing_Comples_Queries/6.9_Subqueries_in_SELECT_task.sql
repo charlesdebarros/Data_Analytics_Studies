@@ -1,5 +1,5 @@
--- Subqueries in the SELECT clause - Task
-
+-- 6.9 Subqueries in the SELECT clause - Task
+-- Return client_id, name, total_sales, average, diffence from the customers table in the sql_invoicing db
 USE sql_invoicing;
 
 SELECT 

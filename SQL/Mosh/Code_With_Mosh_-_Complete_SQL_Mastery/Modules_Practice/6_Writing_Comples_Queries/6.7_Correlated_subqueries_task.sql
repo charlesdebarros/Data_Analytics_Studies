@@ -1,4 +1,4 @@
-# Correlated Subqueries - Task
+# 6.7 Correlated Subqueries - Task
 
 -- Get invoices that are larger than the client's average invoice amount
 
@@ -10,4 +10,4 @@ WHERE invoice_total > (
 	SELECT AVG(invoice_total)
     FROM invoices
 	WHERE client_id = i.client_id
-)
+);
