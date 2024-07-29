@@ -1,15 +1,16 @@
--- Updatable Views
+# 8.3 Updatable Views
+
 -- Views can also be used with INSERT, UPDATE, and DELETE but only under certain circumstances.
 -- Sometimes, due to security reasons, if one does not have direct access to a table, the only alternative is to modify a table using a VIEW.
 
 -- An UPDATABLE view is a view WITHOUT:
--- DISTINCT
--- Aggregate Functions: MIN, MAX, SUM, ...
--- GROUP BY / HAVING
--- UNION
+	-- DISTINCT
+	-- Aggregate Functions: MIN, MAX, SUM, ...
+	-- GROUP BY / HAVING
+	-- UNION
 
 -- For example:
--- Let's add a 'balance' column to the invoices table creating a VIEW:
+	-- Let's add a 'balance' column to the invoices table creating a VIEW:
 
 USE sql_invoicing;
 
