@@ -1,4 +1,5 @@
--- The CASE Operator
+# 7.8 The CASE Operator
+
 -- Reference -> https://dev.mysql.com/doc/refman/8.3/en/flow-control-functions.html
 
 -- CASE value WHEN compare_value THEN result [WHEN compare_value THEN result ...] [ELSE result] END

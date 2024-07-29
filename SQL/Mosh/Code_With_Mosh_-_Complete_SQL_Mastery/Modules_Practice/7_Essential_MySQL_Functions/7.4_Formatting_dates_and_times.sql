@@ -1,4 +1,5 @@
--- FORMATTING DATES AND TIMES
+# 7.4 Formatting Dates and Times
+
 -- Reference -> https://dev.mysql.com/doc/refman/8.3/en/date-and-time-functions.html#function_date-format
 -- Default formatting -> 'YYYY-MM-DD' -> '2019-03-11'
 

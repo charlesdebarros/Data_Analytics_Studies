@@ -1,4 +1,4 @@
--- The CASE operator - Task
+# 7.8 The CASE operator - Task
 
 -- Write a query to classify customers according to their points scores:
 -- > 3000 -> Gold
