@@ -1,6 +1,6 @@
--- Calculating Dates and Times
+# 7.5 Calculating Dates and Times
 
--- DATE_ADD()
+-- DATE_ADD(<date_time>, <expression>)
 -- Time forwards
 SELECT 
 	DATE_ADD(NOW(), INTERVAL 1 DAY) AS adding_one_day,

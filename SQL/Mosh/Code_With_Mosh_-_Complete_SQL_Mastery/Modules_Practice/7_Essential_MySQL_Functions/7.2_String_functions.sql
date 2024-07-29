@@ -1,4 +1,5 @@
--- String Functions
+# 7.2 String Functions
+
 -- Reference -> https://dev.mysql.com/doc/refman/8.3/en/string-functions.html
 
 -- LENGTH(str)

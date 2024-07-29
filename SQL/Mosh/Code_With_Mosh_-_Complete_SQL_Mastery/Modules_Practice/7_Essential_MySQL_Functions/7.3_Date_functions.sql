@@ -1,4 +1,5 @@
--- Date and Time functions
+# 7.3 Date and Time functions
+
 -- Reference -> https://dev.mysql.com/doc/refman/8.3/en/date-and-time-functions.html
 
 -- NOW()

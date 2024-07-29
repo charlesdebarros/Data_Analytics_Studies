@@ -1,11 +1,12 @@
--- Numeric Functions
+# 7.1 Numeric Functions
+
 -- Reference -> https://dev.mysql.com/doc/refman/8.0/en/numeric-functions.html
 
--- ROUND(number, decimals)
+-- ROUND(float_number, decimals)
 SELECT ROUND(5.73) AS rounded_value;
 SELECT ROUND(5.73, 1) AS rounded_value;
 
--- TRUNCATE(number, decimals)
+-- TRUNCATE(float_number, decimals)
 -- It is not the same as ROUND(), it just keeps X numbers after the decimal point
 SELECT TRUNCATE(5.7345, 2) AS truncated_number;
 SELECT TRUNCATE(2.5778, 2) AS truncated_number;
