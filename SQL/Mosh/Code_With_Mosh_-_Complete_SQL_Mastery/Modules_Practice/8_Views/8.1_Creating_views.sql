@@ -1,5 +1,7 @@
--- Creating VIEWS
+# 8.1 Creating VIEWS
+
 -- Reference -> https://dev.mysql.com/doc/refman/8.3/en/create-view.html
+
 -- We can save queries or subqueries in a view
 -- Views can be reused
 -- Views do not store data. The data is stored in the tables.

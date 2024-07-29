@@ -1,4 +1,4 @@
--- Altering or Dropping Views
+# 8.2 Altering or Dropping Views
 -- It is best practice to save SQL files as .sql and store them in version control systems, like Git (GitHub, Bitbucket, Gitlab, etc.)
 -- Reminder: Views do not store data. The data is stored in the tables.
 -- Views only provide a visualisation of the underlying tables. 
@@ -7,7 +7,7 @@
 -- One way to recreate a View is to DROP it and then rerun the CREATE VIEW command.
 
 -- Example:
-USE sql_inventory;
+USE sql_invoicing;
 
 DROP VIEW sales_by_client;
 
