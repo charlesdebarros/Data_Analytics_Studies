@@ -1,4 +1,7 @@
--- Stored Procedures parameters
+# 9.5 Stored Procedures parameters
+
+-- We usually use Parameters to pass a value to the Stored Procedure
+-- We can also use parameters to send values when calling a Stored Procedure
 
 USE sql_invoicing;
 

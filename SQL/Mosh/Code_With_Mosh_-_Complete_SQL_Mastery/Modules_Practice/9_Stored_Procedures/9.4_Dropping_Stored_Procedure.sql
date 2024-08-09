@@ -1,4 +1,5 @@
--- Dropping a Stored Procedure
+# 9.4  Dropping a Stored Procedure
+
 -- Just like VIEWS, it is good pratice to save the code to CREATE, DROP STORE PROCEDURE in a separate SQL file.
 -- Then use source control, like GIT, to store these files.
 

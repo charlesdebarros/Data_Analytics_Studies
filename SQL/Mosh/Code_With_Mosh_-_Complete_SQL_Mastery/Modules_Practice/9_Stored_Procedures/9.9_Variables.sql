@@ -1,4 +1,4 @@
--- Variables
+# 9.9 Variables
 
 -- We define variables using the keyword SET and prefixing them with an '@' sign. 
 -- Example: SET @invoices_count = 0;

@@ -1,8 +1,3 @@
--- Stored Procedure Parameters - Task
-
--- Write a STORED PROCEDURE to return invoices for a given client.
--- Call it 'get_invoices_by_client
-
 USE sql_invoicing;
 
 DROP PROCEDURE IF EXISTS get_invoices_by_client;
@@ -16,5 +11,3 @@ BEGIN
 END$$
 
 DELIMITER ;
-
-CALL get_invoices_by_client(1);
