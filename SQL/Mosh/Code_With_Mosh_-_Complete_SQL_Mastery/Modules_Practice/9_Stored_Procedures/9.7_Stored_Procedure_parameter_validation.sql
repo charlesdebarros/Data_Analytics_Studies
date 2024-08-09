@@ -1,5 +1,7 @@
--- Stored Procedure Paramater Validation
+# 9.7 Stored Procedure Paramater Validation
+
 -- Procedures can also be used to INSERT, UPDATE, and DELETE data
+-- Procedure validation allows SQL to prevent inserting bad data to the database
 -- SQLSTATE error codes reference -> https://www.ibm.com/docs/en/i/7.5?topic=codes-listing-sqlstate-values
 
 USE sql_invoicing;
@@ -16,7 +18,7 @@ CREATE PROCEDURE make_payment
 BEGIN
 	IF payment_amount <= 0 THEN 
 		SIGNAL SQLSTATE '22003'
-        SET message_text = 'Invalid payment amount';
+            SET message_text = 'Invalid payment amount';
 	END IF;
     
 	UPDATE invoices i

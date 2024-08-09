@@ -1,5 +1,7 @@
--- Creating a Stored Procedure
+# 9.2 Creating a Stored Procedure
+
 -- Reference -> https://dev.mysql.com/doc/refman/8.3/en/create-procedure.html
+
 -- CREATE PROCEDURE <procedure_name> (optional_paramenters)
 -- Note:
 --   The notation convention amongst SQL developers is to create variables, procedures names using snake_case, e.g., get_clients

@@ -19,7 +19,7 @@ SELECT
 	invoice_id,
     number,
     client_id,
-    invoice_total,
+    invoice_total,invoices_with_balance
     payment_total,
     invoice_total - payment_total AS balance,
     invoice_date,

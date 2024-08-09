@@ -1,4 +1,5 @@
 -- Creating PROCEDURES using the 'Create Stored Procedure' GUI
+
 -- Right-click the 'Store Procedures' in the navigator panel.
 --    In this example, the 'Stored Procedure' under sql_invoicing.
 --

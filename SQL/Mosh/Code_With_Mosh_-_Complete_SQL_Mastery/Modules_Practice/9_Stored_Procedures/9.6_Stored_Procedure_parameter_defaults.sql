@@ -1,4 +1,4 @@
--- STORED PROCEDURES with Default Paramaters
+# 9.6 STORED PROCEDURES with Default Paramaters
 
 -- We can set default values to parameters. For example, if a value for 'state' is not passed as a parameters
 -- then we can set 'CA' as the 'default' value.

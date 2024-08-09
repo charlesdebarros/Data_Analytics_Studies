@@ -1,4 +1,5 @@
--- STORED PROCEDURE Output Parameters
+# 9.8 STORED PROCEDURE Output Parameters
+
 -- Parameters preceeded with the keyword OUT will be marked as OUT parameters
 -- Avoid using OUT variables unless there is valid reason for using them
 

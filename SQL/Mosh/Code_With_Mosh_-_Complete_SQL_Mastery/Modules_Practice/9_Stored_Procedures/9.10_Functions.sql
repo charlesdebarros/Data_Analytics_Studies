@@ -1,5 +1,8 @@
--- Functions
--- Functions are very similar to STORED PROCEDURES. The main difference is that Functions can only return a SINGLE value.
+# 9.10 Functions
+
+-- Creating MySQL functions
+
+-- Functions are very similar to STORED PROCEDURES. The main difference is that Functions CAN ONLY RETURN A SINGLE value.
 -- They cannot return result sets or multiple rows, for example. 
 -- Every SQL function should have at least one attribute.
 --   	DETERMINISTIC (Always returns the same value)
@@ -35,8 +38,8 @@ END$$
 DELIMITER ;
 
 -- Using the FUNCTION, like a normal SQL function:
--- SELECT
--- 	client_id,
---     name,
---     get_risk_factor_for_client(client_id) AS risk_factor
--- FROM clients;
+SELECT
+	client_id,
+    name,
+    get_risk_factor_for_client(client_id) AS risk_factor
+FROM clients;
