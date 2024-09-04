@@ -1,4 +1,4 @@
--- Events in SQL
+# 10.5 Events in SQL
 --
 -- An EVENT is a task (or block of SQL code) that gets executed according to a schedule.
 -- E.g., once a day, weekly, at 10am, etc.
@@ -11,6 +11,7 @@
 -- Seeing all System Variables in SQL:
 -- SHOW VARIABLES;
 -- To see the Scheduler Event:
+
 SHOW VARIABLES LIKE 'event%';
 -- It is usually ON by default. To turn it ON, if it is OFF, use the SET GLOBAL statement:
 -- SET GLOBAL event_scheduler = ON;
