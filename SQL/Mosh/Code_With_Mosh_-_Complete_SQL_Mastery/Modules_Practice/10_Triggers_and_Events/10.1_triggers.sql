@@ -1,10 +1,16 @@
--- Triggers
+# 10.1 Triggers
 -- MySQL reference -> https://dev.mysql.com/doc/refman/8.3/en/trigger-syntax.html
 -- -> https://dev.mysql.com/doc/refman/8.3/en/faqs-triggers.html 
+
 -- A Trigger is a block of SQL code that automatically gets executed BEFORE or AFTER an INSERT, UPDATE, or DELETE statement.
 -- For example, a table containing invoices data should be automatically updated whenever there is a payment made/registered in the
 -- payments table. 
---
+
+-- NEW -> Returns the row that has just been inserted, the new values
+-- OLD -> Returns the old row with the old values
+
+-- Both NEW and OLD have attributes. For example, we can use NEW.amount to return the NEW amount inserted.
+
 -- In a trigger, we can modify data in any tables EXCEPT the table the trigger is for, otherwise we end up with an infinite loop
 -- as the trigger will fire itself.
 

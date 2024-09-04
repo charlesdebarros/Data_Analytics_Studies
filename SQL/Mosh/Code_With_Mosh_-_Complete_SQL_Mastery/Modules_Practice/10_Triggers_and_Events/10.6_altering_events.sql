@@ -1,6 +1,8 @@
--- Altering EVENTs
+# 10.6 Altering EVENTs
 --
 -- Similar syntax to CREATE EVENT
+-- Use DISABLE or ENABLE keywords to temporarily enable/disable an event.
+-- -- ALTER EVENT <event_name> DISABLE/ENABLE;
 
 USE sql_invoicing;
 

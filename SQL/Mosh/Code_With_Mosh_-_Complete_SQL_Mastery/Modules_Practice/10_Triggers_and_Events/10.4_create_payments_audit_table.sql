@@ -1,3 +1,7 @@
+# 10.4 Auditing Using Trigger
+
+-- Script to create the chapter example table
+
 USE sql_invoicing;
 
 CREATE TABLE payments_audit

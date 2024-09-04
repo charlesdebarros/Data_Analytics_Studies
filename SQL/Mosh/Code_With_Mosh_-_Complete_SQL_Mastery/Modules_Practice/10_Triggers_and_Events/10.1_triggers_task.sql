@@ -1,4 +1,4 @@
--- Triggers - Task
+# 10.1 Triggers - Task
 -- Create a trigger that gets fired when we DELETE a payment.
 
 USE sql_invoicing;
